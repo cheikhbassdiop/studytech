@@ -1,0 +1,120 @@
+📘 1. RÉSUMÉ DU COURS : INTRODUCTION À LINUX
+🐧 Définition
+Linux est un système d’exploitation open source
+Créé en 1991 par Linus Torvalds
+Il permet de :
+gérer le matériel
+exécuter des programmes
+organiser les fichiers
+📜 Historique
+1991 : création de Linux
+1992 : devient open source
+2004 : lancement de Ubuntu
+Aujourd’hui : très utilisé dans les serveurs et le cloud
+⚙️ Importance de Linux
+Gestion du matériel
+Sécurité élevée
+Gestion des utilisateurs
+Utilisé dans :
+serveurs 🌐
+Android 📱
+banques 🏦
+cloud ☁️
+📦 Distribution
+Linux = noyau seulement
+Distribution = noyau + logiciels + interface
+Exemples :
+Ubuntu
+Debian
+Fedora
+Kali Linux
+🧠 Architecture
+Utilisateur
+Applications
+Noyau
+Matériel
+
+👉 Le noyau gère :
+CPU
+mémoire
+disque
+
+📁 Structure des dossiers
+/ : racine
+/home : utilisateurs
+/etc : configuration
+/var : logs
+/usr : programmes
+/bin : commandes
+
+💻 Commandes de base
+pwd : dossier actuel
+ls : afficher fichiers
+cd : changer dossier
+mkdir : créer dossier
+touch : créer fichier
+rm : supprimer
+
+		📝 2. TD + TP CORRIGÉS (TRÈS CLAIRS)
+
+	✅ TD 1 : Réponses
+Linux : système d’exploitation open source
+Créateur : Linus Torvalds
+Différence :
+Linux = noyau
+Distribution = système complet
+Exemples :
+Ubuntu
+Debian
+Fedora
+/home : contient les dossiers des utilisateurs
+Noyau :
+gère matériel et ressources
+
+	🧠 TD 2 : Analyse
+1. Pourquoi Linux est utilisé dans les serveurs ?
+Très stable
+Très sécurisé
+Gratuit
+Performant
+
+2. Distribution recommandée
+👨‍🎓 Étudiant → Ubuntu
+facile à utiliser
+🏢 Entreprise → Debian / Red Hat
+stable et fiable
+🔐 Cybersécurité → Kali Linux
+outils de hacking intégrés
+
+	💻 TP 1 : Commandes expliquées
+🔹 Exercice 1
+pwd → voir dossier actuel
+ls → afficher fichiers
+
+🔹 Exercice 2 (création)
+mkdir LinuxCours
+cd LinuxCours
+mkdir TD
+mkdir TP
+touch Notes.txt
+
+👉 Résultat :
+un dossier LinuxCours
+2 sous-dossiers
+1 fichier
+
+🔹 Exercice 3 (manipulation)
+cp Notes.txt TD/
+mv Notes.txt TP/
+rm -r TD
+
+👉 Explication :
+copier dans TD
+déplacer vers TP
+supprimer TD
+
+🖥️ TP 2
+whoami
+uname -a
+whoami → utilisateur actuel
+uname -a → infos système

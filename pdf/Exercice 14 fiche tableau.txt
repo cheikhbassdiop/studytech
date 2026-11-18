@@ -1,0 +1,38 @@
+Exercice 14
+Algorithme       Addition
+variables        tab(1:20,1:20):tableau d'entier
+		 t(1:20,1:20):tableau d'entier
+		 somme (1:20,1:20):tableau d'entier
+		 i,j,temp:entier
+debut
+	repeter
+	Afficher " Veuillez saisir un nombre"
+	saisir N
+	Afficher " Veuillez saisir un autre nombre"
+	saisir M
+	jusqu'à (N <= 20) et (M <= 20)
+	Pour i de 1 à N faire
+	     Pour j de 1 à M faire
+		Afficher " Saisir un nombre "
+		saisir tab(i,j)
+	     Finpour
+	Finpour
+ 	Pour i de 1 à N faire
+	     Pour j de 1 à M faire
+		Afficher " Saisir un nombre "
+		saisir t(i,j)
+	     Finpour
+	Finpour
+	Pour i de 1 à N faire
+	     Pour j de 1 à M faire
+		somme(i,j) <-- tab(i,j) + t(i,j)
+	     Pinpour
+	Finpour
+	Pour i de 1 à 4 faire
+	     Pour j de 1 à 4 faire
+		Afficher somme(i,j)
+	     Finpour
+	Finpour
+
+Fin
+

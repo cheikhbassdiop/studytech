@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACCUEIL</title>
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+     <header>
+        <a href="index.html">StudyTech</a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="cours.html">Cours</a></li>
+                <li><a href="exercices.html">Exercices</a></li>
+                 <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="commenter.html">Commenter</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="acc">
+        <div class="hero-content">
+            <p class="hero-eyebrow">APPRENDRE · PRATIQUER · RÉUSSIR</p>
+            <h1>Study<span>Tech</span></h1>
+            <p class="hero-description">Votre espace simple et complet pour apprendre les bases de l'informatique, à votre rythme.</p>
+            <div class="hero-actions">
+                <a href="a propos.html" class="button">Découvrir StudyTech</a>
+                <a href="commenter.html" class="button button-ghost">Nous contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats" id="stats">
+        <div class="stats-grid">
+            <div class="stat">
+                <span class="stat-number" data-target="10">0</span>
+                <span class="stat-label">modules de cours</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number" data-target="70">0</span>
+                <span class="stat-label">questions de quiz</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number" data-target="60">0</span>
+                <span class="stat-label">ressources PDF</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number" data-target="5">0</span>
+                <span class="stat-label">domaines couverts</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CE QUE PROPOSE STUDYTECH -->
+    <section class="features">
+            <p class="section-eyebrow">UNE MÉTHODE SIMPLE</p>
+            <h2>Trois façons de progresser</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 10h32v24a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2V10Z" stroke="#2ec4b6" stroke-width="2.5" stroke-linejoin="round"/>
+                        <path d="M8 18h32" stroke="#2ec4b6" stroke-width="2.5"/>
+                        <circle cx="14" cy="14" r="1.6" fill="#2ec4b6"/>
+                        <circle cx="19" cy="14" r="1.6" fill="#2ec4b6"/>
+                    </svg>
+                </div>
+                <h3>Cours structurés</h3>
+                <p>Des supports classés par matière, du HTML à l'architecture des ordinateurs, prêts à consulter en PDF.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 6h18l8 8v26a2 2 0 0 1-2 2H12a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Z" stroke="#2ec4b6" stroke-width="2.5" stroke-linejoin="round"/>
+                        <path d="M30 6v8h8" stroke="#2ec4b6" stroke-width="2.5" stroke-linejoin="round"/>
+                        <path d="M16 24h16M16 30h16M16 36h10" stroke="#2ec4b6" stroke-width="2.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3>Exercices pratiques</h3>
+                <p>Des TD, examens et corrigés pour t'entraîner sur chaque notion avant tes évaluations.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="24" cy="24" r="17" stroke="#2ec4b6" stroke-width="2.5"/>
+                        <path d="M19 19c0-3 2.5-5 5-5s5 2 5 4.5c0 3-3 3.5-4.5 5.5-.6.8-.5 1.6-.5 2" stroke="#2ec4b6" stroke-width="2.5" stroke-linecap="round"/>
+                        <circle cx="24" cy="33" r="1.8" fill="#2ec4b6"/>
+                    </svg>
+                </div>
+                <h3>Quiz interactifs</h3>
+                <p>Teste tes connaissances par module, réponds vite et vois ton score en fin de session.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- APERCU DES COURS -->
+    <section class="preview preview-cours">
+        <div class="preview-head">
+            <div><p class="section-eyebrow">APPRENDRE</p><h2>Découvrez les differents cours techniques.</h2></div>
+            <a href="cours.html" class="text-link">Voir tous les cours</a>
+        </div>
+        <div class="preview-grid">
+            <article class="preview-card">
+                <span class="preview-tag">HTML ; CSS</span>
+                <h3>Créer des sites web modernes et responsives</h3>
+                <p>Les bases du HTML, les balises importantes et les formulaires, pour construire tes premières pages.</p>
+                <a href="./pdf/COURS.pdf" class="button">Cours détaillé</a>
+            </article>
+            <article class="preview-card">
+                <span class="preview-tag">Algorithmique</span>
+                <h3>Maîtriser le pseudo-code, les boucles et les conditions</h3>
+                <p>Comprendre comment décomposer un problème avant de l'écrire dans n'importe quel langage.</p>
+                <a href="./pdf/ALGO ET PROGRAMME.pdf" class="button">Cours détaillé</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- APERCU DES EXERCICES -->
+    <section class="preview preview-exos">
+        <div class="preview-head">
+            <div><p class="section-eyebrow">S'ENTRAÎNER</p><h2>Exercez-vous pour mieux comprendre</h2></div>
+            <a href="exercices.html" class="text-link">Voir tous les exercices</a>
+        </div>
+        <div class="preview-grid">
+            <article class="preview-card">
+                <span class="preview-tag">Architecture des ordinateurs</span>
+                <h3>Examens corrigés sur le CPU, la RAM et les bus</h3>
+                <p>Deux examens complets avec corrigé pour vérifier ce que tu as retenu du cours.</p>
+                <a href="./pdf/EXAMEN ARCHITECTURES 1 CORRIGE.pdf" class="button">Examen 1 corrigé</a>
+            </article>
+            <article class="preview-card">
+                <span class="preview-tag">Algorithmique</span>
+                <h3>Travaux dirigés et exercices corrigés</h3>
+                <p>Des exercices progressifs pour pratiquer les boucles, les conditions et les tableaux.</p>
+                <a href="./pdf/TD ALGO.pdf" class="button">TD Algorithmique</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="home-cta">
+        <p class="cta-eyebrow">C'EST LE MOMENT</p>
+        <h2>Prêt à réviser ?</h2>
+        <p>Choisis un module, lis le cours, entraîne-toi, puis teste-toi en quiz.</p>
+        <div class="home-cta-buttons">
+            <a href="cours.html" class="button">Voir les cours</a>
+            <a href="quiz.html" class="button button-outline">Faire un quiz</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html">Study<span>Tech</span></a>
+                <p>Apprendre l'informatique, simplement.</p>
+            </div>
+            <nav class="footer-nav" aria-label="Navigation de pied de page">
+                <a href="cours.html">Cours</a>
+                <a href="exercices.html">Exercices</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="commenter.html">Commenter</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 StudyTech. Tous droits réservés.</span>
+            <span>Encadré par Madame NDIAYE</span>
+        </div>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>

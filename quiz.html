@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - StudyTech</title>
+  <link rel="stylesheet" href="projet.css">
+</head>
+
+<body class="quiz-page">
+   <header>
+        <a href="index.html">StudyTech</a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="cours.html">Cours</a></li>
+                <li><a href="exercices.html">Exercices</a></li>
+                 <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="commenter.html">Commenter</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+  <main class="quiz-wrapper">
+    <div class="quiz-card">
+
+      <!-- Écran de sélection du module -->
+      <div id="module-select">
+        <h1 class="quiz-title" style="margin-bottom: 20px;">Choisissez un module</h1>
+        <div class="module-list">
+          <button class="module-btn" data-module="web">Web (HTML / CSS / JS)<span class="module-count"></span></button>
+          <button class="module-btn" data-module="algo">Algorithmique<span class="module-count"></span></button>
+          <button class="module-btn" data-module="c">Langage C<span class="module-count"></span></button>
+          <button class="module-btn" data-module="maintenance">Maintenance et architecture des ordinateurs<span class="module-count"></span></button>
+          <button class="module-btn" data-module="merise">Merise<span class="module-count"></span></button>
+        </div>
+      </div>
+
+      <!-- Écran du quiz -->
+      <div id="quiz" class="hidden">
+
+        <div class="quiz-header">
+          <h1 id="module-title" class="quiz-title">Quiz</h1>
+          <div class="timer-badge">
+            <span id="timer">15</span>
+          </div>
+        </div>
+
+        <p id="question-progress" class="question-progress" aria-live="polite"></p>
+
+        <h2 id="question" class="quiz-question">
+          Question ici
+        </h2>
+
+        <div class="buttons"></div>
+
+        <button id="change-module-btn" class="change-module-btn hidden">
+          Changer de module
+        </button>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

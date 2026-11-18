@@ -1,0 +1,113 @@
+
+CHAPITRE 1 ;.PRESENTATION DE RESEAUX
+1.1 Historique
+1.2 Généralité
+1.3 L’Impact de réseaux dans la vie quotidienne
+1.4 Les Différents tailles de réseaux
+1.5 Fourniture de ressources dans un réseau
+1.5.1 Clients et serveurs
+1.5.2 Peer-to-Peer (P2P)
+  LES TYPES DE RESEAUX
+1.1  Le LAN   :Local Area Network
+1.2 Les MAN: Métropolitain Area Network
+1.3 Les WAN: Wide Area Network
+1.4 Le PAN (Personal area Network ou reseau personel)
+1.5 Le GAN (. Global Area Network ou reseau global)
+1.6  Le WLAN LAN sans fil
+ 2 ARCHITECTURE ET TOPOLOGIE RÉSEAU
+2.1 La topologie
+2.1.1 La topologie Physique
+2.1.2 La topologies Logique
+  3.ARCHITECTURE
+3.1La Topologie Etoile
+3.2 La Topologie en Bus
+3.3 La Topologie en anneaux
+3.4 La Topologie en Etoile étendue
+Conclusion 
+
+CHAPITRE 2. : REGLE DE COMMUNICATION ET MODEL OSI ET TCP/IP
+1 Règle de communication
+2 Détermination de règle
+3 Format et encapsulation des messages
+4: Options de remise des messages
+
+5 REGLE DE COMMUNICATION
+ 5.1 Monodiffusion (Unicast)
+ 5.2 Multidiffusion (Multicast)
+5.3 Diffusion (broadcast)
+
+6  LE MODELE OSI ET TCP/IP
+
+1. Introduction au modèle OSI
+Définition du modèle OSI
+Signification de OSI (Open System Interconnexion)
+Rôle du modèle OSI dans les réseaux
+Importance du modèle OSI dans la communication réseau
+2. Historique du modèle OSI
+Origine du modèle OSI
+Organisation ayant créé le modèle : ISO
+Objectifs du modèle OSI
+3. Structure générale du modèle OSI
+Présentation des 7 couches
+Fonctionnement en couches
+Communication entre couches
+Encapsulation et désencapsulassions des données
+4. Étude des 7 couches du modèle OSI
+Couche 1 : Physique
+Couche 2 : Liaison de données
+Couche 3 : Réseau
+Couche 4 : Transport
+Couche 5 : Session
+Couche 6 : Présentation
+Couche 7 : Application
+5.Comparaison entre le modèle OSI et TCP/IP
+                                         
+
+CHAPITRE 3:  EQUIPEMENT ET COMPOSANT DE RESEAUX
+.1 Composants d'un réseau
+1.1 Les périphériques finaux
+.2 Les différents supports de transmission
+2.1 Le câble a paire torsadée non blindée (UTP)
+2.2 Le câble a paire torsadées blindées (UTP)
+2.3 Le câble coaxiaux
+2.4 La fibre optique
+2.5 Le support sans fil
+
+2 LES PRINCIPAUX TYPES DE SERVEURS
+2.1 Serveur d’authentification
+2.2 Serveur de fichiers
+2.3 Serveur de fichiers
+2.4 Serveur d’application
+2.5 Serveur de communication
+2.6 Serveur web
+
+ 3.LES EQUIPEMENTS DE RESEAUX LAN
+  3.1 Les unités de base carte réseau
+3.2 Le Répéteur
+3.3 Le concentrateur
+3.4 Le pont
+3.5 le commutateur ou switch
+3.5.1 différence entre un switch et un concentrateur
+3.6 Le routeur (Passerelle)
+
+
+CHAPITRE 4 : LES ADRESSAGE IPV4 ET IPV6
+
+1 Les Adresses IPV4
+2 Le système binaire
+3 Notation binaire
+4 Conversion d’une adresse binaire en adresse décimale
+5 Les différentes classe d’adresse IP
+6 Masque de sous réseaux
+7 Les types d’adresse ipv4 sans classes
+8- Les adresses ipv4 réservées
+9 Les opérations AN
+10 Le protocole IPV6
+11 Les adresse IPV6
+12 Le système de numération hexadécimale
+13 La représentation des adresse IPV6
+14 Calcule ou segmentation des adresses IPV4 et IPV6
+
+PRATIQUE
+        15 Comment sertir un câble RJ45 
+       16 Comment mettre les machines en réseau. Partage de fichier, Bureau à distance
